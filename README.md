@@ -17,10 +17,10 @@ To ensure that the links still functioned correctly, I made sure that the ID's m
 
 ### Complete Product!!
 
-![sample homework2](https://user-images.githubusercontent.com/76290048/110201084-45877500-7e2f-11eb-9760-a622af71b6cf.PNG)
-![Capture2](https://user-images.githubusercontent.com/76290048/110201375-ba0ee380-7e30-11eb-8274-da4af57ca745.PNG)
+![example port](https://user-images.githubusercontent.com/76290048/114982137-0c461a00-9e5d-11eb-9562-8bc9cecc24e4.PNG)
+
 
 As part of the acceptance criteria, we were told to link our page up with GitHub Pages, and provide a link for the live website as well as an image of our finished product. (Shown above.)
 
-The link for the final product is here! --> https://sethvance26.github.io/Portfolio-Homework/
+The link for the final product is here! --> https://sethvance26.github.io/Vance_Portfolio/
 
