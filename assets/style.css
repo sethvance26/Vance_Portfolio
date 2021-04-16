@@ -1,187 +1,238 @@
-/* Here I made a custom property to apply colors to multiple items */
-:root {
-  --dark: #13293d;
-  --light: #fff;
-  --navlink-color: #b9c6ae;
-}
+/* 
 
-body {
-  
-  flex-direction: column;
-  line-height: 1.3;
-  background-color:#BBBCC2
-}
-
-header {
-  justify-content: space-between;
-  display: flex;
-  padding: 1%;
-  background-color: var(--dark);
-  font-family: cursive;
-}
-
-
-
-h1 {
-  font-size: 60px;
-  display: inline;
-  color: var(--navlink-color);
-  align-self: center;
-}
-
-h2 {
-  margin: 2% 0;
-  font-size: 250%;
-  text-decoration: underline;
-  font-family: cursive;
-}
-/* Under h2, I under-lined the text, and also made it cursive. */
-
-nav ul {
-  display: flex;
-  float: right;
-  justify-content: space-between;
-  min-width: 500px;
-  font-size: x-large;
-  background-color: var(--dark);
-}
-/* This above is for the list items in the header */
-.contact-info {
+.social-icon-button {
+  border-radius: 3.6rem;
+  width: 3.6rem;
+  height: 3.6rem;
+  position: relative;
+  display: inline-block;
   text-align: center;
+  font-size: 2rem;
+  background: none;
+}
+
+.social-icon-button + .social-icon-button {
+  margin-left: 0.25rem;
+}
+
+.social-icon-button .fa {
+  background: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 1;
+  line-height: 3.6rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-icon-button span {
+  display: block;
+  border-radius: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  transition: all 0.3s ease-in-out;
+}
+
+.social-icon-button:hover .fa {
+  color: #fefefe;
+}
+
+.social-icon-button:hover span {
+  display: block;
+  border-radius: 3.6rem;
+  width: 3.6rem;
+  height: 3.6rem;
+}
+
+.social-icon-button.gplus {
+  color: #dd4b39;
+}
+
+.social-icon-button.gplus span {
+  background-color: #dd4b39;
+}
+
+.social-icon-button.twitter {
+  color: #55acee;
+}
+
+.social-icon-button.twitter span {
+  background-color: #55acee;
+}
+
+.social-icon-button.facebook {
+  color: #3b5998;
+}
+
+.social-icon-button.facebook span {
+  background-color: #3b5998;
+} */
+
+.about-the-author {
+  background-color: #fff8f0;
+  padding: 1rem;
+  border: 1px solid #cacaca;
+}
+
+.about-the-author .separator-left {
+  text-align: left;
+}
+
+.about-the-author .separator-left::before, .about-the-author .separator-left::after {
+  display: table;
+  content: ' ';
+  -webkit-flex-basis: 0;
+      -ms-flex-preferred-size: 0;
+          flex-basis: 0;
+  -webkit-order: 1;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.about-the-author .separator-left::after {
+  clear: both;
+}
+
+.about-the-author .separator-left::after {
+  position: relative;
+  width: 5rem;
+  border-bottom: 0.125rem solid #1779ba;
+  margin: 0.3rem auto 0;
+  margin-left: 0;
+}
+
+.about-the-author .author-title {
+  text-transform: uppercase;
+}
+
+.about-the-author .author-social {
+  text-align: center;
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
+}
+
+.about-the-author .author-social .fa-stack {
+  display: inline-block;
+}
+
+.about-the-author .author-social .fa-stack.facebook {
+  color: #4c70ba;
+}
+
+.about-the-author .author-social .fa-stack.facebook:hover, .about-the-author .author-social .fa-stack.facebook:focus {
+  color: #3b5998;
+}
+
+.about-the-author .author-social .fa-stack.twitter {
+  color: #83c3f3;
+}
+
+.about-the-author .author-social .fa-stack.twitter:hover, .about-the-author .author-social .fa-stack.twitter:focus {
+  color: #55acee;
+}
+
+.about-the-author .author-social .fa-stack.linkedin {
+  color: #009ee8;
+}
+
+.about-the-author .author-social .fa-stack.linkedin:hover, .about-the-author .author-social .fa-stack.linkedin:focus {
+  color: #007bb5;
+}
+
+.about-the-author .author-image {
+  border: 1px solid #cacaca;
+}
+
+
+
+.mobile-app-icon-bar {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  background: #fefefe;
+}
+
+.mobile-app-icon-bar button {
+  padding: 1.25rem;
+  cursor: pointer;
+}
+
+.mobile-app-icon-bar button svg,
+.mobile-app-icon-bar button i,
+.mobile-app-icon-bar button img {
+  font-size: 2rem;
+  max-height: 2rem;
+  max-width: 2rem;
+}
+
+
+.subnav-hero-section {
+  text-align: center;
+  background: #9E2B25;
+  background-size: cover;
+  position: relative;
+  overflow: visible;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 300px;
+}
+
+.subnav-hero-section .subnav-hero-headline {
+  color: #fefefe;
+  font-size: 2.5rem;
+}
+
+.subnav-hero-subnav {
+  float: none;
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  bottom: 0;
   width: 100%;
 }
 
-.contact-info-header {
-  text-align:left;
-  
-}
-/* Here I created the above classes to make sure the contact info header stayed to the left, and the links stayed more to  */
-
-.email, .linkedin, .github, .spotify{
-  display:inline-block;
-  text-align: justify;
-  padding: 100px;
-  font-size: x-large;
+.subnav-hero-subnav li {
+  float: none;
+  display: inline-block;
 }
 
-/* Here I created classes for email, linkedin, github, and spotify links so that I could space them evenly, 
-and make sure they appear properly. */
-
-nav a {
-  background-color: unset;
-  color: var(--navlink-color);
+.subnav-hero-subnav li a {
+  padding: 0.9rem 1rem;
+  font-size: 0.75rem;
+  color: #fefefe;
+  text-transform: uppercase;
+  display: block;
   font-weight: bold;
-  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all 0.35s ease-in-out;
 }
 
-nav a:hover {
-  color: var(--light);
+.subnav-hero-subnav li a.is-active {
+  background: rgba(254, 254, 254, 0.15);
 }
 
-main {
-  display: flex;
-  flex: 1 1 0;
-  max-width: 96%;
-  margin: 2% auto;
+.subnav-hero-subnav li a:hover {
+  background: rgba(254, 254, 254, 0.15);
 }
-
-article {
-  border-left: 6px solid var(--dark);
-  margin-left: 200px;
-}
-/* Here I changed the margin-left to 200px, causing everything under h2 to move to the right */
-
-
-article p {
-  margin-left: 70px;
-  font-size: 150%;
-  font-family: cursive;
-  color: black;
-  line-height:36px;
-  padding: 05px;
-  
-}
-
-.pers-img {
-  height: 350px;
-    width: 300px;
-    image-resolution:inherit;
-    margin-left: 20px;
-    border: 5px solid var(--light);
-    flex-wrap: wrap;
-}
-/* above I made a class called pers-img to ensure my personal image had decent height 
-and width (so it wasn't blurry) */
-
-.snip-img {
-  height:100%;
-  width: 40%;
-  margin: auto;
-  border: 5px solid var(--light);
-  
-}
-
-.card {
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 50px;
-  flex: 0 0 200px;
-  box-shadow: 10px 10px 5px #aaaaaa;
-  margin: 20px;
-}
-/* Here I created the card class for the images within the portfolio section */
-.sites {
-  flex: 5;
-  padding: 50px;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: flex-start;
-}
-/* Above I created classes for the images, and a class to make a card for each image as well! */
-
-
-.big-img {
-  height:100%;
-  width: 80%;
-  margin-left: 20px;
-  border: 5px solid var(--light);
-  flex-wrap: wrap;
-}
-/* Here the biggest image is styled with the class big-img */
-
-
-@media screen and (max-width: 848px) {
-  header {
-    flex-direction: column;
-  }
-
-  main {
-    max-width: 1200px;
-  }
-}
-
-@media screen and (max-width: 676px) {
-  header {
-    flex-direction: column;
-  }
-  .snip-img {
-    height: 350px;
-    width: 350px;
-  }
-  .big-img {
-    height: 350px;
-    width: 350px;
-  }
-    main {
-    max-width:1200px;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  header {
-    flex-direction: column;
-  }
-}
-
-/* Above we made media queries in order to make certain breakpoints */
-/* We also made the image change height and width when the page changes */

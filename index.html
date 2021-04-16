@@ -2,96 +2,101 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vance- About me!</title>
-  <link rel="stylesheet" href="./assets/reset.css" />
-  <link rel="stylesheet" href="./assets/style.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="assets/style.css"> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" 
+  integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" 
+  crossorigin="anonymous">
+  <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
+  
+
+  <title>Document</title>
 </head>
-<!-- Always gotta link your style sheets! -->
+
+
 <body>
-  <header>
-    <h1>Seth Vance</h1>
-    <nav>
-      <ul>
-        <a href="#about-me">About Me</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact-me">Contact</a>
-        <a href="./assets/images/Seth_Vance_Resume.pdf">Resume</a>
-      </ul>
-    </nav>
+  <header class="subnav-hero-section">
+    <h1 class="subnav-hero-headline">Seth J. Vance</h1>
+    <ul class="subnav-hero-subnav">
+      
+      <li><a href="#">Previous Works!</a></li>
+      <li><a href="#">My Resume!</a></li>
+      <li><a target="_blank" href="">Contact Me!</a></li>
+    </ul>
   </header>
+  <!-- <a href="#" class="social-icon-button twitter"><i class="fa fa-twitter" aria-hidden="true"></i><span></span></a>
 
-  <main>
-    <section id="about-me">
-        <h2>About Me</h2>
-        <article>
-        <div>
-          <img src="./assets/images/Capture.PNG" class="pers-img">
-          <img src="./assets/images/DSC0.JPG" class="pers-img">
-          <img src="./assets/images/DSC1.jpg" class="pers-img">
-          <p>A current Customer Advisor at BestBuy, but my true passion is in technology and nature!</p>
-          <p>Some of my favorite hobbies are hiking, longboarding, drone-flying, & playing video games!</p>
-          <p>I'd also like to shout out my girlfriend and her puppies, my number one fans!</p>
-        </div>
-      </article>
-    </section>
-  </main>
-<!-- I attached the class pers-img to these images above to give them the same layout 
-on the page -->
+<a href="#" class="social-icon-button facebook"><i class="fa fa-facebook" aria-hidden="true"></i><span></span></a>
 
-  <main>
-    <div class="sites">
-    <section id="portfolio">
-        <h2>Portfolio</h2>
-        <article>
-        <img src="./assets/images/workplease.PNG" class="card big-img" alt="Project 1 Image" />
-        <img src="./assets/images/web2.PNG" class="card snip-img" alt= "Project 2 Image" />
-        <img src="./assets/images/frame.PNG" class="card snip-img" alt= "Project 3 Image" />
-        <img src="./assets/images/image.PNG" class="card snip-img" alt= "Project 4 Image" />
-        <img src="./assets/images/image3.PNG" class="card snip-img" alt= "Project 5 Image" />
-        </div>
-      </article>
-    </section>
-  </main>
-<!-- Here I applied the card and the snip img class to the images within the article tag -->
+<a href="#" class="social-icon-button gplus"><i class="fa fa-google-plus" aria-hidden="true"></i></i><span></span></a> -->
+<div class="about-the-author">
+  <h3 class="author-title">About the Author</h3>
+  <div class="row">
+    <div class="small-12 medium-4 columns">
+      <div class="author-image">
+        <img src="assets/images/DSC00058.JPG">
+      </div>
+      <div class="small-12 medium-8 columns">
+      <h4 class="separator-left">Web Developer</h4>
+      <p>A current Customer Advisor at BestBuy, but my true passion is in technology and nature! Some of my favorite hobbies are hiking, longboarding, drone-flying, & playing video games! I'd also like to shout out my girlfriend and her puppies, my number one fans! </p>
+    </div>
+      <div class="author-social">
+        <a href="#">
+          <span class="fa-stack fa-lg facebook">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+        <a href="#">
+          <span class="fa-stack fa-lg twitter">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+        <a href="#">
+          <span class="fa-stack fa-lg linkedin">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+      </div>
+    </div>
+    
+  </div>
+</div>
 
-  <main>
-    <section class="contact-info" id="contact-me">
-        <h2 class="contact-info-header">Contact Information</h2>
-        <article>
-        <div>
-            
-              <div class="email">
-                
-                  
-                <a href="mailto:sethvance26@gmail.com">E-mail Address</a>
-                
-              </div>
 
-              <div class = "linkedin">
-                
-                  
-                  <a href="https://www.linkedin.com/in/seth-vance-b1b28115a/">LinkedIn</a> 
-                
-              </div>
 
-              <div class="github">
-                
-                  
-                  <a href="https://github.com/sethvance26">GitHub</a>
-                
-              </div>
+<!-- <div class="mobile-app-icon-bar">
+  <button><i class="fa fa-picture-o" aria-hidden="true"></i></button>
+  <button><i class="fa fa-map-marker" aria-hidden="true"></i></button>
+  <button><i class="fa fa-upload" aria-hidden="true"></i></button>
+  <button><i class="fa fa-list-ul" aria-hidden="true"></i></button>
+  <button><i class="fa fa-cog" aria-hidden="true"></i></button>
+</div> -->
+  
+  
+  
+  
+  <script src="jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js"
+   integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" 
+  crossorigin="anonymous"></script>
 
-              <div class = "spotify">
-                
-                  
-                  <a href="https://open.spotify.com/playlist/37i9dQZF1EMc64dv3hNB60?si=6fe4c5ea7c97424b">Spotify</a> 
-                
-              </div>
-          </div>
-      </article>
-    </section>
-  </main>
-
+</body>
 </html>
+  
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/flatly/bootstrap.min.css" 
+  integrity="sha384-qF/QmIAj5ZaYFAeQcrQ6bfVMAh4zZlrGwTPY7T/M+iTTLJqJBJjwwnsE5Y0mV7QK"
+   crossorigin="anonymous">
+
+  
+
+ 
+
+
+ 
