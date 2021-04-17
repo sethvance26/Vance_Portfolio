@@ -19,8 +19,9 @@ To ensure that the links still functioned correctly, I made sure that the ID's m
 
 ![example port](https://user-images.githubusercontent.com/76290048/114982137-0c461a00-9e5d-11eb-9562-8bc9cecc24e4.PNG)
 
+Contact Information - sethvance39@gmail.com
 
-As part of the acceptance criteria, we were told to link our page up with GitHub Pages, and provide a link for the live website as well as an image of our finished product. (Shown above.)
+Below you can find the deployed link on GitHub Pages, and above you can find an example picture of this project! 
 
 The link for the final product is here! --> https://sethvance26.github.io/Vance_Portfolio/
 
