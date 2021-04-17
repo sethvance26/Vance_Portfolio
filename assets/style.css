@@ -148,9 +148,9 @@
   color: #007bb5;
 }
 
-.about-the-author .author-image {
+/* .about-the-author .author-image {
   border: 1px solid #cacaca;
-}
+} */
 
 
 
@@ -196,7 +196,7 @@
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 300px;
+  height: 200px;
 }
 
 .subnav-hero-section .subnav-hero-headline {
@@ -236,3 +236,135 @@
 .subnav-hero-subnav li a:hover {
   background: rgba(254, 254, 254, 0.15);
 }
+
+#Mainpic {
+  width: 100%;
+  height: 100%;
+}
+
+/* This is for the google fonts api */
+
+
+.button {
+  display: -webkit-flex;
+             display: flex;
+             -webkit-justify-content: space-between;
+             justify-content: space-between;
+}
+
+
+
+.rounded-social-buttons {
+  text-align: center;
+}
+
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 3.125rem;
+  height: 3.125rem;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-size: 1.5625rem;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+  -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+
+
+.rounded-social-buttons .social-button.linkedin {
+  background: #007bb5;
+}
+
+.rounded-social-buttons .social-button.linkedin:before {
+  font-family: "FontAwesome";
+  content: "";
+}
+
+.rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+  color: #007bb5;
+  background: #fefefe;
+  border-color: #007bb5;
+}
+
+
+
+.rounded-social-buttons .social-button.instagram {
+  background: #125688;
+}
+
+.rounded-social-buttons .social-button.instagram:before {
+  font-family: "FontAwesome";
+  content: "";
+}
+
+.rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+  color: #125688;
+  background: #fefefe;
+  border-color: #125688;
+}
+
+
+.rounded-social-buttons .social-button.github {
+  background: #000000;
+}
+
+.rounded-social-buttons .social-button.github:before {
+  font-family: "FontAwesome";
+  content: "";
+}
+
+.rounded-social-buttons .social-button.github:hover, .rounded-social-buttons .social-button.github:focus {
+  color: #000000;
+  background: #fefefe;
+  border-color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+
+  #mainPic {
+    height: 20px;
+    width: 20px;
+  }
+  
+  }
+    main {
+    max-width:1200px;
+  }
+
+
+/* @media screen and (max-width: 375px) {
+  header {
+    flex-direction: column;
+  }
+} */
