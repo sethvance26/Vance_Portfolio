@@ -228,7 +228,7 @@
 
 /* This is for desktop version, since it was made mobile first. */
 
-@media(min-width: 500px) {
+/* @media(min-width: 500px) {
   img {
       width: 50%;
       margin: auto;
@@ -246,7 +246,7 @@
     margin: auto;
     box-shadow: 30px 0 40px rgba(0,0,0,0.1),
     -30px 0px 40px rgba(0,0,0,0.1);
-}
+} */
 
 img {
   display: block;
@@ -254,20 +254,15 @@ img {
 }
 
 @media screen and (min-width: 64em) {
-  #headshot-card {
+   #selfImage{
     display: flex;
-    width: 300px;
-    height: 350px;
+    width: 50%;
     justify-content: center;
     align-items: center;
-    margin-left: 100px;
+    margin-left: 500px;
+    
   }
 
-  #about-me {
-    /* display: flex; */
-    padding-left: 50px;
-  }
-}
 
 #Mainpic {
   background: url("../images/clear\ me.jpg");
@@ -338,6 +333,11 @@ p {
   background-color: #fff8f0;
 text-align: center;
 }
-main{
+
+main {
   background-color: #fff8f0;
+}
+
+.Info {
+  color: white;
 }
