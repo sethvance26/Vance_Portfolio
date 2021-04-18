@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 
 <head>
   <meta charset="UTF-8">
@@ -7,19 +7,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <link rel="stylesheet" href="assets/css/style.css"> 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" 
-  integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" 
-  crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/css/foundation.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+  
+<!-- Above I linked the fontawesome CSS library, and the foundation css Library as well.  -->
 
   
 
   <title>Document</title>
 </head>
 
-
+<!-- This creates the header with added functionality through foundation's framework. -->
 <body>
   <header class="subnav-hero-section">
     <h1 class="subnav-hero-headline">Seth J. Vance</h1>
@@ -32,59 +30,60 @@
       <li><a href="contactpage.html">Contact Me!</a></li>
     </ul>
   </header>
-  <!-- <a href="#" class="social-icon-button twitter"><i class="fa fa-twitter" aria-hidden="true"></i><span></span></a>
 
-<a href="#" class="social-icon-button facebook"><i class="fa fa-facebook" aria-hidden="true"></i><span></span></a>
 
-<a href="#" class="social-icon-button gplus"><i class="fa fa-google-plus" aria-hidden="true"></i></i><span></span></a> -->
-<div class="about-the-author">
-  <!-- <h3 class="author-title">About the Author</h3> -->
-  <div class="row">
-    <div class="small-12 medium-4 columns">
-      <div class="author-image">
-        <img id="Mainpic" src="assets/images/clear me.jpg">
-      </div>
-      <div class="small-12 medium-8 columns">
-      <h4 class="separator-left">Web Developer</h4>
-      <p>A current Customer Advisor at BestBuy, but my true passion is in technology and nature! Some of my favorite hobbies are hiking, longboarding, drone-flying, & playing video games! I'd also like to shout out my girlfriend and her puppies, my number one fans! </p>
+  <!-- The main section just holds a card with an image, and has social icons below with links to those pages. -->
+<main>
+  <div class="about-the-author">
+    <!-- <h3>Previous Work</h3> -->
+   
+      <div class="grid-x grid-margin-x small-up-1 medium-up-1">
+        <div class="cell">
+          <div class="card">
+            
+            <img src="/assets/images/clear me2.jpg">
+            <div class="card-section">
+              
+            <h4 class="whiteText">About Me</h4>
+              <p>A current Customer Advisor at BestBuy, but my true passion is in technology and nature!
+                 Some of my favorite hobbies are hiking, longboarding, drone-flying, & playing video games! 
+                 I'd also like to shout out my girlfriend and her puppies, my number one fans!  </p>
+            </div>
+          </div>
+        </div>
+        </div>
+      
       <div class="rounded-social-buttons">
         
         
-        <a class="social-button linkedin" href="#"></a>
-        
-        <a class="social-button instagram" href="#"></a>
+        <a class="social-button linkedin" href="https://www.linkedin.com/in/seth-vance-b1b28115a/"></a>
+            
+        <a class="social-button instagram" href="https://instagram.com/sthvance?igshid=1853fj326jwfp"></a>
 
-        <a class="social-button github" href="#"></a>
+        <a class="social-button github" href="https://github.com/sethvance26"></a>
 
       </div>
     
   </div>
 </div>
 
+</main>
 
 
-<!-- <div class="mobile-app-icon-bar">
-  <button><i class="fa fa-picture-o" aria-hidden="true"></i></button>
-  <button><i class="fa fa-map-marker" aria-hidden="true"></i></button>
-  <button><i class="fa fa-upload" aria-hidden="true"></i></button>
-  <button><i class="fa fa-list-ul" aria-hidden="true"></i></button>
-  <button><i class="fa fa-cog" aria-hidden="true"></i></button>
-</div> -->
+  <!-- Here we are linking Jquery, which foundation uses. -->
   
-  
-  
-  
-  <script src="jquery-3.5.1.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js"
-   integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" 
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
   crossorigin="anonymous"></script>
 
+<!-- Here is the foundation CDN for all the javascript functionality in foundation. -->
+
+<script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
+<script>$(document).foundation();</script>
 </body>
 </html>
   
-  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/flatly/bootstrap.min.css" 
-  integrity="sha384-qF/QmIAj5ZaYFAeQcrQ6bfVMAh4zZlrGwTPY7T/M+iTTLJqJBJjwwnsE5Y0mV7QK"
-   crossorigin="anonymous">
 
   
 
