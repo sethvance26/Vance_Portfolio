@@ -25,6 +25,6 @@ Below you can find the deployed link on GitHub Pages, and above you can find an 
 
 The link for the final product is here! --> https://sethvance26.github.io/Vance_Portfolio/
 
-![project pic 1](https://user-images.githubusercontent.com/76290048/114250136-b3611800-996a-11eb-9b86-0efea22a3994.PNG)![EXAMPLE 2](https://user-images.githubusercontent.com/76290048/114250140-b65c0880-996a-11eb-9684-1c491987c481.PNG)![example 3](https://user-images.githubusercontent.com/76290048/114250144-b956f900-996a-11eb-9f31-4aea6d5699dd.PNG)![Capture](https://user-images.githubusercontent.com/76290048/115132120-36b5e580-9fcb-11eb-882f-28056f496356.PNG)
+![project pic 1](https://user-images.githubusercontent.com/76290048/114250136-b3611800-996a-11eb-9b86-0efea22a3994.PNG)![EXAMPLE 2](https://user-images.githubusercontent.com/76290048/114250140-b65c0880-996a-11eb-9684-1c491987c481.PNG)![example 3](https://user-images.githubusercontent.com/76290048/114250144-b956f900-996a-11eb-9f31-4aea6d5699dd.PNG)![Capture](https://user-images.githubusercontent.com/76290048/115132153-b0e66a00-9fcb-11eb-93b1-5bebd4bcc350.PNG)
 
 
