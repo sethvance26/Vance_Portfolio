@@ -1,11 +1,5 @@
 
 
-/* .about-the-author {
-  background-color: #fff080
-  padding: 1rem;
-  border: 1px solid #cacaca;
-} */
-
 .about-the-author .separator-left {
   text-align: left;
 }
@@ -38,10 +32,6 @@
 }
 
 
-/* .about-the-author .author-image {
-  border: 1px solid #cacaca;
-} */
-
 
 
 .mobile-app-icon-bar {
@@ -70,7 +60,7 @@
   max-width: 2rem;
 }
 
-
+/* This is for the navbar at the top of the page. */
 .subnav-hero-section {
   text-align: center;
   background: #9E2B25;
@@ -129,18 +119,7 @@
 
 
 
-
-
-/* This is styling for buttons and the social media icons. */
-
-/* .button {
-  display: -webkit-flex;
-             display: flex;
-             -webkit-justify-content: space-between;
-             justify-content: space-between;
-} */
-
-
+/* This here is the styling for the rounded, animated social media buttons at the bottom of each page.  */
 
 .rounded-social-buttons {
   text-align: center;
@@ -188,7 +167,7 @@
   background: #fefefe;
   border-color: #007bb5;
 }
-
+/* We got each individual button's hover effect here. This one is for linkedin */
 
 
 .rounded-social-buttons .social-button.instagram {
@@ -205,7 +184,8 @@
   background: #fefefe;
   border-color: #125688;
 }
-
+ 
+/* These styles are for the Instagram button. */
 
 .rounded-social-buttons .social-button.github {
   background: #000000;
@@ -223,82 +203,13 @@
 }
 
 
-
-
-
-/* This is for desktop version, since it was made mobile first. */
-
-/* @media(min-width: 500px) {
-  img {
-      width: 50%;
-      margin: auto;
-      box-shadow: 30px 0 40px rgba(0,0,0,0.1),
-      -30px 0px 40px rgba(0,0,0,0.1);
-  }
-    main {
-        margin: auto;
-        max-width: 100%;
-    }
-  };
-
-  main {
-    max-width: 900px;
-    margin: auto;
-    box-shadow: 30px 0 40px rgba(0,0,0,0.1),
-    -30px 0px 40px rgba(0,0,0,0.1);
-} */
+/* These styles are for GitHub's icon.  */
 
 img {
   display: block;
   width: 100%;
 }
 
-
-
-
-#Mainpic {
-  background: url("../images/clear\ me.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-    height: 1100px;
-    flex: 0 1 60vw;
-    margin: 0;
-}
-
-#sampleOne {
-  background: url("../images/sample\ homework2.PNG");
-  background-position: center;
-  /* background-size: cover; */
-  background-repeat: no-repeat;
-  
-  height: 1100px;
-  flex: 0 1 60vw;
-  margin: 0;
-}
-
-#sampleTwo {
-  background: url("../images/image.PNG");
-  background-position: center;
-  /* background-size: cover; */
-  background-repeat: no-repeat;
-  
-  height: 1100px;
-  flex: 0 1 60vw;
-  margin: 0;
-}
-
-#sampleThree {
-  background: url("../images/frame.png");
-  background-position: center;
-  /* background-size: cover; */
-  background-repeat: no-repeat;
-  
-  height: 1100px;
-  flex: 0 1 60vw;
-  margin: 0;
-}
 
 .boxes {
     flex-direction: row;
@@ -334,6 +245,8 @@ main {
   color: white;
 }
 
+/* This media query changes the way the page looks on a bigger screen, since it was made primarily for mobile.  */
+
 @media screen and (min-width: 64em) {
    #selfImage{
     display: flex;
@@ -342,4 +255,5 @@ main {
     align-items: center;
     margin-left: 500px;
     
-  };
+  }
+}

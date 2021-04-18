@@ -17,6 +17,7 @@
   <title>Document</title>
 </head>
 
+<!-- Same navbar for each HTML, so you can navigate back and forth at will. -->
 
 <body>
   <header class="subnav-hero-section">
@@ -24,7 +25,7 @@
     <ul class="subnav-hero-subnav">
       
       <li><a href="index.html">Return Home?</a></li>
-      <li><a href="assets/images/Seth_Vance_Resume.pdf">My Resume!</a></li>
+      <li><a href="assets/images/Vance_Resume.pdf">My Resume!</a></li>
       <li><a href="contactpage.html">Contact Me!</a></li>
     </ul>
   </header>
@@ -32,17 +33,20 @@
 
   <main>
    
-    <!-- <div class="about-the-author"> -->
+
+    <!-- Here we have a grid that contains the cards of each previous assignment, some info about it, and a link to the Repo within the card as well. -->
+    
     <h3 class ="headText"> ~ Previous Work ~ </h3>
     <div class="grid-container">
       <div class="grid-x grid-margin-x small-up-1 medium-up-1">
+        <!-- Here we set the page up to show a different amount of results depending on the viewport. I set it to one so each item can still be seen in detail. -->
         <div class="cell">
           <div class="card">
             
             <img src="./assets/images/Project Example.PNG">
             <div class="card-section">
               
-            <h4 class="whiteText">GigHub Music</h4>
+              <h4> <a href="https://github.com/kcarroll21/projectoneNFTeam" class="whiteText">GigHub Music</h4>
               <p>GigHub Music allows Artists and Consumers alike to research venues 
                 in any US city and view recent Youtube results for those venues.
                 With the integration of Youtube's API, the user can even see live music events or concerts
@@ -59,7 +63,7 @@
           <div class = "card-section">
             <img src="assets/images/dayplanner.png">
             <div class="card-section">
-              <h4 class="whiteText">Work Day Scheduler</h4>
+              <h4><a href="https://github.com/sethvance26/Day-Planner" class="whiteText">Work Day Scheduler</h4>
               <p>WorkDay scheduler uses Moment.js to give user the current time and date, and alters the color of each line depending 
                 on the current hour within a typical 9 to 5 workday. The User can also write in notes for each hour which will be stored in the
                 user's Local Storage and remain on the page. Jquery and conditional statements were also applied in this project. 
@@ -72,7 +76,7 @@
           <div class="card">
             <img src="assets/images/passgenerator.png">
             <div class="card-section">
-              <h4 class="whiteText">JavaScript Password Generator</h4>
+              <h4> <a href="https://github.com/sethvance26/Javascript-Password-Generator" class="whiteText">JavaScript Password Generator</h4>
               <p>The password generator prompts the user to select an amount of characters between 8 and 128, and asks 
                 the User to confirm their other character choices for their password to be generated. (Upper, Lower, Special & Numbers). 
               It then generates a password to the page based off the User's inputs. The JavaScript Password Generator uses conditonal statements, 
@@ -83,12 +87,9 @@
       
   
 
+        
           
           
-          <!-- <button class="button"><span>Previous</span></button><button class="button" ><span>Next</span></button> -->
-          <div class="small-12 medium-8 row">
-          <!-- <h4 class="separator-left">Portfolio</h4> -->
-          <!-- <p>A current Customer Advisor at BestBuy, but my true passion is in technology and nature! Some of my favorite hobbies are hiking, longboarding, drone-flying, & playing video games! I'd also like to shout out my girlfriend and her puppies, my number one fans! </p> -->
           <div class="rounded-social-buttons">
             
             
