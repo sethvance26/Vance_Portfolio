@@ -247,7 +247,7 @@ main {
 
 /* This media query changes the way the page looks on a bigger screen, since it was made primarily for mobile.  */
 
-@media screen and (min-width: 64em) {
+@media screen and (max-width: 867px) {
    #selfImage{
     display: flex;
     width: 50%;
