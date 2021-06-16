@@ -1,4 +1,6 @@
-
+#selfimgCard {
+  background-color:#fff8f0;
+}
 
 .about-the-author .separator-left {
   text-align: left;
@@ -207,9 +209,24 @@
 
 img {
   display: block;
-  width: 100%;
 }
 
+#selfImage {
+  width: 45%;
+  align-self: center;
+}
+
+
+.emptracker {
+  align-self: center;
+  width: 50%;
+  margin-left: 300px;
+}
+#dayplanner {
+  align-self: center;
+  width: 70%;
+  margin-left: 200px;
+}
 
 .boxes {
     flex-direction: row;
@@ -248,12 +265,11 @@ main {
 /* This media query changes the way the page looks on a bigger screen, since it was made primarily for mobile.  */
 
 @media screen and (max-width: 867px) {
-   #selfImage{
+  .emptracker{
     display: flex;
-    width: 50%;
     justify-content: center;
-    align-items: center;
-    margin-left: 500px;
+    align-self: center;
+   
     
   }
 }
