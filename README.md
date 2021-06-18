@@ -53,6 +53,7 @@ Contact Information - sethvance39@gmail.com
 Below you can find the deployed link on GitHub Pages, and above you can find an example picture of this project! 
 
 The link for the final product is here! ---> https://sethvance26.github.io/Vance_Portfolio/
+(This is my 2nd made Portfolio)
 
 
 
