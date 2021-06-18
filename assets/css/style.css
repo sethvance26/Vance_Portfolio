@@ -216,6 +216,11 @@ img {
   align-self: center;
 }
 
+#droneImage {
+  width: 85%;
+  height: 100%;
+  align-self: center;
+}
 
 .emptracker {
   align-self: center;
@@ -322,7 +327,37 @@ main {
     display: flex;
     justify-content: center;
     align-self: center;
-   
-    
+  }
+  #droneImage{
+    width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 2000px) {
+  #droneImage{
+    width: 60%;
+    height: 50%;
+  }
+}
+
+@media screen and (max-width: 3000px) {
+  #droneImage{
+    width: 60%;
+    height: 50%;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  #droneImage{
+    width: 85%;
+    height: 50%;
+  }
+}
+
+@media screen and (max-width: 556px) {
+  #droneImage{
+    width: 100%;
+    height: 100%;
   }
 }
